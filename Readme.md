@@ -2,7 +2,7 @@
 This repository contains two Docker containers that are connected to each other. One of the containers runs an API, while the other runs a frontend for a blog website.
 
 ## API Container
-The API container is a Node.js application that exposes several endpoints for managing blog posts. It runs on port 4000 and is built using the official node:17-alpine Docker image.
+The API container is a Node.js application that exposes an endpoint for managing blog posts. It runs on port 4000 and is built using the official node:17-alpine Docker image.
 
 # Build and Run the API Container
 To build and run the API container, follow these steps:
