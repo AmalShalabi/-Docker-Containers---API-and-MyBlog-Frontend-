@@ -35,7 +35,7 @@ docker run -d --name myblog -p 3000:3000 myblog
 ```
 
 ## Connecting the Containers
-The API container and the MyBlog container are connected to each other through a Docker network. When the containers are started, they are automatically attached to the same network. The MyBlog application communicates with the API using the URL `http://api:4000`.
+The API container and the MyBlog container are connected to each other through a Docker network. When the containers are started, they are automatically attached to the same network. The MyBlog application communicates with the API using the URL `http://localhost:4000`.
 
 ## Using Docker Compose
 Alternatively, you can use Docker Compose to build and run the containers. Docker Compose is a tool for defining and running multi-container Docker applications.
